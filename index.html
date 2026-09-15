@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lavender Beauty Salon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- Header -->
+  <header class="header">
+    <h1 class="salon-name">LAVENDER BEAUTY SALON</h1>
+  </header>
+ 
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+ 
+  <!-- Home / Hero Section -->
+  <section id="home" class="hero">
+    <h2>Welcome to Lavender Beauty Salon</h2>
+    <p>Where every woman feels beautiful, relaxed, and cared for.</p>
+  </section>
+ 
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Hair Styling</h3>
+        <p>$25</p>
+      </div>
+      <div class="service-card">
+        <h3>Hair Coloring</h3>
+        <p>$45</p>
+      </div>
+      <div class="service-card">
+        <h3>Manicure</h3>
+        <p>$15</p>
+      </div>
+      <div class="service-card">
+        <h3>Pedicure</h3>
+        <p>$20</p>
+      </div>
+      <div class="service-card">
+        <h3>Facial</h3>
+        <p>$30</p>
+      </div>
+      <div class="service-card">
+        <h3>Makeup</h3>
+        <p>$35</p>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Lavender Beauty Salon has been helping women look and feel their best for many years.
+      Our friendly team uses quality products and gentle care to give you a relaxing and
+      enjoyable experience every time you visit.
+    </p>
+  </section>
+ 
+  <!-- Working Hours Section -->
+  <section class="hours">
+    <h2>Working Hours</h2>
+    <ul>
+      <li>Monday - Friday: 9:00 AM - 7:00 PM</li>
+      <li>Saturday: 10:00 AM - 6:00 PM</li>
+      <li>Sunday: Closed</li>
+    </ul>
+  </section>
+ 
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: (555) 123-4567</p>
+    <p>Location: 123 Rose Street, Green Valley City</p>
+  </section>
+ 
+  <!-- Booking Form Section -->
+  <section class="booking">
+    <h2>Book an Appointment</h2>
+    <form id="booking-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+ 
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" placeholder="Enter your phone number" required>
+ 
+      <label for="service">Service:</label>
+      <select id="service" required>
+        <option value="">-- Select a Service --</option>
+        <option value="Hair Styling">Hair Styling</option>
+        <option value="Hair Coloring">Hair Coloring</option>
+        <option value="Manicure">Manicure</option>
+        <option value="Pedicure">Pedicure</option>
+        <option value="Facial">Facial</option>
+        <option value="Makeup">Makeup</option>
+      </select>
+ 
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+ 
+      <button type="submit">Book Now</button>
+    </form>
+ 
+    <p id="confirmation-message"></p>
+  </section>
+ 
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Lavender Beauty Salon. All Rights Reserved.</p>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 
